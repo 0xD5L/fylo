@@ -10,7 +10,7 @@ function App() {
     {/* hero */}
       <div className="App min-h-screen relative z-40 flex flex-col items-center justify-center -mt-19">
         <img
-          className="intro-img"
+          className="intro-img max-md:w-100 max-md:h-75 max-md:mt-20"
           src={illustIntro}
           width={900}
           height={900}
@@ -18,7 +18,7 @@ function App() {
         />
         <div className="intro flex justify-center items-center">
           <div className="intro-text w-1/2">
-            <h1 className="text-5xl font-bold text-gray-300 text-center justify-center leading-13" >
+            <h1 className="text-5xl font-bold text-gray-300 text-center justify-center leading-13 max-md:text-[1.3rem] max-md:leading-8 max-md:text-center maax-md:justify-center">
               All your files in one secure location,<br/> accessible anywhere.
             </h1>
             <p className="text-gray-400 text-2xl mt-4  text-center flex">
@@ -36,7 +36,7 @@ function App() {
       {/*  */}
       <img className="w-full -mt-89 z-0 relative" src={bgCurvy} width={2200} height={1000} alt="Hero" />
       <div className="bg-[#181F2B]">
-        
+
       </div>
     </>
   );
